@@ -1,0 +1,16 @@
+package in.basha;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+
+@SpringBootApplication
+@EnableFeignClients
+
+public class DepartmentsApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DepartmentsApplication.class, args);
+	}
+
+}

@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Eureka-Service
+  config:
+    import: "optional:configserver:http://localhost:9091"
+
+server:
+  port: 8761
+
+eureka:
+  client:
+    register-with-eureka: false
+  instance:
+    hostname: localhost

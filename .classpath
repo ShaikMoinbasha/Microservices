@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Config-Server-Service/src/main/java"/>
+	<classpathentry kind="src" path="Config-Server-Service/src/test/java"/>
+	<classpathentry kind="src" path="departments/src/main/java"/>
+	<classpathentry kind="src" path="departments/src/test/java"/>
+	<classpathentry kind="src" path="Employee/src/main/java"/>
+	<classpathentry kind="src" path="Employee/src/test/java"/>
+	<classpathentry kind="src" path="Eureka-Server/src/main/java"/>
+	<classpathentry kind="src" path="Eureka-Server/src/test/java"/>
+	<classpathentry kind="lib" path="Eureka-Server/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="Config-Server-Service/target/classes"/>
+</classpath>
